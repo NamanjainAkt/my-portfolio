@@ -15,13 +15,12 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  Nextedge_Labs,
+  colorwhistle,
+  bosp,
+  Audance,
+  DocSched,
+  Gemini,
   threejs,
 } from "../assets";
 
@@ -117,10 +116,10 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    company_name: "NextEdge Labs",
+    icon: Nextedge_Labs,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2024 - April 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -128,25 +127,13 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "colorwhistle",
+    icon: colorwhistle,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Aug 2024 - Oct 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -156,10 +143,10 @@ const experiences = [
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "the bureau of small projects",
+    icon: bosp,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2025 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -172,35 +159,35 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "looking you work so passionately makes me too glad.",
     name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+    designation: "Aspiring Developer",
+    company: "OpenSource Community",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "Highly recommend! Great experience from start to finish.",
     name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+    designation: "tech-geek",
+    company: "OpenSource Community",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "Smooth, efficient, and well-designed. This is exactly what I needed!",
     name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+    designation: "Contributor",
+    company: "OpenSource Community",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Audance",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Audance is a personalized web music player that lets you enjoy my favorite songs anytime.",
     tags: [
       {
         name: "react",
@@ -215,13 +202,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: Audance,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Online Doctor Appointment App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An online doctor appointment app for easy booking, consultations, and healthcare access anytime.",
     tags: [
       {
         name: "react",
@@ -236,28 +223,28 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: DocSched,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Gemini-Clone",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Gemini clone is an AI-powered chatbot or assistant designed to provide intelligent conversations, answer queries, and assist with tasks, mimicking Google's Gemini AI capabilities.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: Gemini,
     source_code_link: "https://github.com/",
   },
 ];
