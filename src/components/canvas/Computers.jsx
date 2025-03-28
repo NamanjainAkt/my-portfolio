@@ -31,21 +31,27 @@ const Computers = (isMobile) => {
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false)
   useEffect(() => {
+    // Add listener for changes to screen size
     const mediaQuery = window.matchMedia('(max-width: 500px)')
-
     setIsMobile(mediaQuery.matches)
+    
     const handleMediaQueryChange = (event) => {
       setIsMobile(event.matches)
     }
+    
+    // Add the callback function as a listener for changes to the media query
     mediaQuery.addEventListener('change', handleMediaQueryChange)
+
     return () => {
       mediaQuery.removeEventListener('change', handleMediaQueryChange)
     }
   }, [])
+
   return (
     <Canvas
       frameloop="demand"
       shadows
+      dpr={[1, 2]}
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
     >
