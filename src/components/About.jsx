@@ -44,8 +44,6 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         I'm a passionate Web Developer skilled in JavaScript, React.js, Node.js, and other modern technologies. I specialize in building dynamic, responsive, and user-friendly web applications, leveraging the power of the MERN and MEAN stacks.
-
-        With a strong focus on innovation and problem-solving, I love creating Progressive Web Apps (PWAs) and integrating AI-powered features into web solutions. Whether it's developing scalable backends, crafting seamless front-end experiences, or optimizing web performance, I'm always eager to push boundaries and bring ideas to life.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10 '>
