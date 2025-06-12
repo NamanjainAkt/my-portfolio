@@ -41,7 +41,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Mern Stack",
     icon: web,
   },
   {
@@ -51,10 +51,6 @@ const services = [
   {
     title: "Backend Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -184,6 +180,50 @@ const testimonials = [
 ];
 
 const projects = [
+
+  {
+  "name": "DreaMatrix",
+  "description": "DreaMatrix is an AI-powered image generation web app built using the MERN stack. It allows users to generate stunning images using AI prompts with real-time preview and download options.",
+  "tags": [
+    {
+      "name": "react",
+      "color": "blue-text-gradient"
+    },
+    {
+      "name": "mongodb",
+      "color": "green-text-gradient"
+    },
+    {
+      "name": "openai-api",
+      "color": "pink-text-gradient"
+    }
+  ],
+  "image": DreaMatrix,
+  "source_code_link": "https://github.com/"
+}
+,
+  {
+  "name": "Baatcheet",
+  "description": "Baatcheet is a real-time chat application developed with the MERN stack and Socket.IO. It features live messaging, typing indicators, and online user tracking with a sleek interface.",
+  "tags": [
+    {
+      "name": "react",
+      "color": "blue-text-gradient"
+    },
+    {
+      "name": "socket.io",
+      "color": "purple-text-gradient"
+    },
+    {
+      "name": "nodejs",
+      "color": "orange-text-gradient"
+    }
+  ],
+  "image": Baatcheet,
+  "source_code_link": "https://github.com/"
+}
+
+  ,
   {
     name: "Audance",
     description:
@@ -227,7 +267,29 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Gemini-Clone",
+  "name": "Nestler",
+  "description": "Nestler is an Airbnb clone built using the MERN stack. It allows users to explore, book, and manage vacation rentals with an intuitive UI and secure authentication system.",
+  "tags": [
+    {
+      "name": "react",
+      "color": "blue-text-gradient"
+    },
+    {
+      "name": "mongodb",
+      "color": "green-text-gradient"
+    },
+    {
+      "name": "express",
+      "color": "yellow-text-gradient"
+    }
+  ],
+  "image": Nestler,
+  "source_code_link": "https://github.com/"
+},
+  
+
+  {
+    name: "Ai ChatBot",
     description:
       "A Gemini clone is an AI-powered chatbot or assistant designed to provide intelligent conversations, answer queries, and assist with tasks, mimicking Google's Gemini AI capabilities.",
     tags: [
@@ -247,6 +309,7 @@ const projects = [
     image: Gemini,
     source_code_link: "https://github.com/",
   },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
