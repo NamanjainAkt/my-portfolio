@@ -6,7 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import dreaMatrix from "./dreaMatrix.png"
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -19,15 +19,16 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
-
+import threejs from "./tech/threejs.png";
+import BaatCheet from "./BaatCheet.png"
 import Nextedge_Labs from "./company/Nextedge_Labs.png";
 import colorwhistle from "./company/colorwhistle.png";
 import bosp from "./company/bosp.png";
-
+import Nestler from "./Nestler.png"
 import Audance from "./Audance.png";
 import DocSched from "./DocSched.png";
 import Gemini from "./Gemini.png";
+import herobg1 from "./herobg1.jpg"
 
 export {
   logo,
@@ -57,4 +58,8 @@ export {
   Audance,
   DocSched,
   Gemini,
+  dreaMatrix,
+  BaatCheet,
+  Nestler,
+  herobg1,
 };

@@ -10,7 +10,7 @@ const ServiceCard = ({ index, title, icon }) => {
   return (
     <Tilt className='xs:w-[250px] w-full'>
       <motion.div
-        variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
+        variants={fadeIn("right", "spring", 0.1 * index, 0.75)}
         className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
       >
         <div
@@ -46,7 +46,7 @@ const About = () => {
         I'm a passionate Web Developer skilled in JavaScript, React.js, Node.js, and other modern technologies. I specialize in building dynamic, responsive, and user-friendly web applications, leveraging the power of the MERN and MEAN stacks.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10 '>
+      <div className='mt-20 flex flex-wrap gap-10 justify-center'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

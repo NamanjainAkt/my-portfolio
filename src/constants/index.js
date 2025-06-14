@@ -21,7 +21,10 @@ import {
   Audance,
   DocSched,
   Gemini,
+  dreaMatrix,
   threejs,
+  BaatCheet,
+  Nestler
 } from "../assets";
 
 export const navLinks = [
@@ -198,7 +201,7 @@ const projects = [
       "color": "pink-text-gradient"
     }
   ],
-  "image": DreaMatrix,
+  "image": dreaMatrix,
   "source_code_link": "https://github.com/"
 }
 ,
@@ -219,7 +222,7 @@ const projects = [
       "color": "orange-text-gradient"
     }
   ],
-  "image": Baatcheet,
+  "image": BaatCheet,
   "source_code_link": "https://github.com/"
 }
 
