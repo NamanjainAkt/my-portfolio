@@ -21,7 +21,7 @@ import {
   Audance,
   DocSched,
   Gemini,
-  dreaMatrix,
+  DreaMatrix,
   threejs,
   BaatCheet,
   Nestler
@@ -185,46 +185,66 @@ const testimonials = [
 const projects = [
 
   {
-  "name": "DreaMatrix",
-  "description": "DreaMatrix is an AI-powered image generation web app built using the MERN stack. It allows users to generate stunning images using AI prompts with real-time preview and download options.",
-  "tags": [
-    {
-      "name": "react",
-      "color": "blue-text-gradient"
-    },
-    {
-      "name": "mongodb",
-      "color": "green-text-gradient"
-    },
-    {
-      "name": "openai-api",
-      "color": "pink-text-gradient"
-    }
-  ],
-  "image": dreaMatrix,
-  "source_code_link": "https://github.com/"
-}
-,
+    "name": "DreaMatrix",
+    "description": "DreaMatrix is an AI-powered image generation web app built using the MERN stack. It allows users to generate stunning images using AI prompts with real-time preview and download options.",
+    "tags": [
+      {
+        "name": "react",
+        "color": "blue-text-gradient"
+      },
+      {
+        "name": "mongodb",
+        "color": "green-text-gradient"
+      },
+      {
+        "name": "openai-api",
+        "color": "pink-text-gradient"
+      }
+    ],
+    "image": DreaMatrix,
+    "source_code_link": "https://github.com/"
+  }
+  ,
   {
-  "name": "Baatcheet",
-  "description": "Baatcheet is a real-time chat application developed with the MERN stack and Socket.IO. It features live messaging, typing indicators, and online user tracking with a sleek interface.",
-  "tags": [
-    {
-      "name": "react",
-      "color": "blue-text-gradient"
-    },
-    {
-      "name": "socket.io",
-      "color": "purple-text-gradient"
-    },
-    {
-      "name": "nodejs",
-      "color": "orange-text-gradient"
-    }
-  ],
-  "image": BaatCheet,
-  "source_code_link": "https://github.com/"
-}
+    "name": "Baatcheet",
+    "description": "Baatcheet is a real-time chat application developed with the MERN stack and Socket.IO. It features live messaging, typing indicators, and online user tracking with a sleek interface.",
+    "tags": [
+      {
+        "name": "react",
+        "color": "blue-text-gradient"
+      },
+      {
+        "name": "socket.io",
+        "color": "purple-text-gradient"
+      },
+      {
+        "name": "nodejs",
+        "color": "orange-text-gradient"
+      }
+    ],
+    "image": BaatCheet,
+    "source_code_link": "https://github.com/"
+  },
+{
+    "name": "Nestler",
+    "description": "Nestler is an Airbnb clone built using the MERN stack. It allows users to explore, book, and manage vacation rentals with an intuitive UI and secure authentication system.",
+    "tags": [
+      {
+        "name": "react",
+        "color": "blue-text-gradient"
+      },
+      {
+        "name": "mongodb",
+        "color": "green-text-gradient"
+      },
+      {
+        "name": "express",
+        "color": "yellow-text-gradient"
+      }
+    ],
+    "image": Nestler,
+    "source_code_link": "https://github.com/"
+  },
 
   ,
   {
@@ -269,27 +289,8 @@ const projects = [
     image: DocSched,
     source_code_link: "https://github.com/",
   },
-  {
-  "name": "Nestler",
-  "description": "Nestler is an Airbnb clone built using the MERN stack. It allows users to explore, book, and manage vacation rentals with an intuitive UI and secure authentication system.",
-  "tags": [
-    {
-      "name": "react",
-      "color": "blue-text-gradient"
-    },
-    {
-      "name": "mongodb",
-      "color": "green-text-gradient"
-    },
-    {
-      "name": "express",
-      "color": "yellow-text-gradient"
-    }
-  ],
-  "image": Nestler,
-  "source_code_link": "https://github.com/"
-},
-  
+
+
 
   {
     name: "Ai ChatBot",
@@ -312,7 +313,7 @@ const projects = [
     image: Gemini,
     source_code_link: "https://github.com/",
   },
-  
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };
